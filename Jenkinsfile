@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('dependencies') {
             steps {
-                pip install -r /backend/requirements.txt
+                pip install -r requirements.txt
             }
         }
         stage('Test') {
