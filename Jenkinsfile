@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('dependencies') {
             steps {
-                pip install -r requirements.txt
+            echo 'testinnnnggggg'
             }
         }
         stage('Test') {
